@@ -6,12 +6,56 @@
     width: 90px;
     border-radius:2px;
     cursor: pointer;
+    margin-right:3px;
+    transition: opacity  0.10s;
+
 }.join-button{
-    background-color: rgb(249, 249, 252);
-    border-color:rgb(149, 213, 230);
+    background-color: white;
+    border-color:rgb(75, 115, 224);
+    border-style:solid;
+    border-width:1px;
+    color:rgb(75, 115, 224);
+    height: 32px;
+    width:60px;
+    cursor: pointer;
+    border-radius:3px;
+     margin-right:10px;
+     transition:background-color 0.12s ;
+}.subscribe-button:hover {
+    opacity: 0.8;
+
+}.subscribe-button:active{
+    
+    opacity: 0.5;
+}
+.join-button:hover{
+    background-color:rgb(75, 115, 224); 
+    color:white
+}.join-button:active{
+    opacity: 0.5;
+}.twee:hover{
+    opacity:0.8;
+}.twee:active{
+    opacity:0.3;
+}
+
+
+.twee{
+    background-color:rgb(67, 132, 207);
+    border-radius: 20px;
+    height: 32px;
+    width: 70px;
+    color:white;
+    border:none;
+    margin-right:10px;
+    font-weight: bold;
+    font-size:13px;
+    cursor: pointer;
 }
 
 </style>
 
+
 <button class="subscribe-button">SUBSCRIBE</button>
 <button class="join-button">JOIN</button>
+<button class="twee">Tweet</button>
