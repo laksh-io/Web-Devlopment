@@ -1,7 +1,6 @@
-<a href="https://www.amazon.in/"><h1>Amazon</h1></a>
+<a class="amz" href="https://www.amazon.in/"><h1>Amazon</h1></a>
 
-<p class="phone">Iphone 16 pro
-</p>
+<p class="phone">Iphone 16 pro</p>
 <p class="price">$100 - in Stock.</p>
 <p class="text" >free delivery by Tomorrow.
 </p>
@@ -17,6 +16,23 @@
     cursor:pointer;
     margin-right: 9px;
     font-size: 15px;
+    transition: background-color 0.5s,
+    color 1s;
+}.add-button:hover{
+    opacity:0.9;
+}.add-button:active{
+    opacity: 1;
+}
+.now-button:hover{
+    opacity: 0.9;
+}.now-button:active{
+    opacity: 1;
+}
+.amz{
+    transition: background-color 0.5s,
+    color 0.2s;
+}.amz:hover{
+    color:darkorange;
 } .now-button{
     background-color: rgb(223, 124, 53);
      height: 30px;
@@ -26,11 +42,18 @@
     border-radius:20px;
     cursor: pointer;
     font-size:15px;
+    transition: background-color 0.89s,
+    color 0.1s;
 }.phone{
     font-weight: bolder;
     font-size: 30px;
+    cursor:pointer;
 
-}.price{color:green;
+
+}.phone:hover{
+   text-shadow: 4px 5px 5px rgba(0,0 ,0, 0.15);
+}
+.price{color:green;
 font-weight: bold;
 font-size: 20px;}
 .text{font-size: 19px;}
