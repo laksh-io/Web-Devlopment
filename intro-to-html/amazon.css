@@ -1,11 +1,5 @@
-<a class="amz" href="https://www.amazon.in/"><h1>Amazon</h1></a>
 
-<p class="phone">Iphone 16 pro</p>
-<p class="price">$100 - in Stock.</p>
-<p class="text" >free delivery by Tomorrow.
-</p>
-
-<style>.add-button{
+.add-button{
     background-color: rgb(250, 220, 72);
 
     height: 30px;
@@ -57,5 +51,3 @@
 font-weight: bold;
 font-size: 20px;}
 .text{font-size: 19px;}
-</style>
-<button class="add-button">Add to Cart</button> <button class="now-button">Buy Now</button>
