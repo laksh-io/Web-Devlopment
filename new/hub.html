@@ -60,6 +60,7 @@
                 display:flex;
                 justify-content: center;
                 gap: 20px;
+                
             }
             .box{
                 
@@ -125,6 +126,22 @@
             .un{
                 color:white;
             }
+            .box:hover{
+                opacity: 0.6;
+                cursor: pointer;
+            }.box2:hover{
+                opacity:0.6;
+                cursor: pointer;
+            }.box:active{
+                opacity: 0.8;
+            }.box2:active{
+                opacity: 0.8;
+            }.not:hover{
+                cursor: pointer;
+                opacity:0.6;
+            }.not:active{
+                opacity: 0.8;
+            }
             </style>
     </head>
     <body>
@@ -134,7 +151,8 @@
         <p class="para">This website contains age-restricted materials including nudity and explicit depictions of sexual activity. By entering, you affirm that you are at least 18 years of age or the age of majority in the jurisdiction you are accessing the website from and you consent to viewing sexually explicit content</p>
         <p class="law"> Notice to Law Enforcement</p>
         <div class="buttons">
-        <button class="box">I am 18 or older - Enter</button> <button class="box2">I am under 18 - Exit</button>
+            
+        <button class="box" onclick="window.location.href='https://www.youtube.com/watch?v=Bw47gpm0doU'"> I am 18 or older - Enter</button> <button class="box2">I am under 18 - Exit</button>
         </div>
         <p class="o">Our <span class="spa">parental controls page </span> explains how you can easily block access to this site.</p>
 <p class="terms">Terms of Service</p>
